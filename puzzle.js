@@ -149,7 +149,7 @@ function shuffle() {
 function createLeaderboardSection() {
     let leaderboardDiv = document.createElement('div');
     leaderboardDiv.id = 'leaderboard';
-    leaderboardDiv.innerHTML = '<h3>Playing Statistics</h3>';
+    leaderboardDiv.innerHTML = '<h2>Playing Statistics</h2>';
     document.body.appendChild(leaderboardDiv);
 }
 
